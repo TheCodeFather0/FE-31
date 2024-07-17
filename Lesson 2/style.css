@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+li {
+    background-color: cadetblue;
+    list-style-position: inside;
+    color: white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+p { 
+    background-image: url(https://st3.depositphotos.com/6013912/31828/i/450/depositphotos_318282086-stock-photo-lmaty-kazakhstan-november-5-2019.jpg);
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

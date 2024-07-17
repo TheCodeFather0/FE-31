@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  color: #fff;
+  background-color: #252b42;
+  padding: 50px 0;
+}
+
+header a {
+  color: #fff;
+}
+
+.logoAndLinks {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+nav .buttons a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.joinUsBtn {
+  background-color: #23a6f0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.banner {
+  width: 450px;
+  margin: 45px auto;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 48px;
+}
+
+.banner p {
+  margin-top: 20px;
+}
+
+.banner .buttons a {
+  padding: 10px 30px;
+  margin: 20px 5px;
+  display: inline-block;
+  border: 1px solid #23a6f0;
+}
+
+.getQuoteNowBtn {
+  background-color: #23a6f0;
+}
+
+.info_boxes {
+  width: 1200px;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+}
+.info_box {
+  padding: 20px;
+}
+
+.info_box h3 {
+  margin: 20px 0;
+}
+
+.info_box.box_1,
+.info_box.box_2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.info_box.box_3 {
+  background-color: #23a6f0;
+}

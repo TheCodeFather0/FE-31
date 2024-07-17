@@ -1,0 +1,22 @@
+p.test {
+  color: yellow;
+}
+
+.test {
+  color: green;
+}
+
+#title {
+  color: purple;
+}
+
+/*
+
+    cascading order 
+
+    p       -> 1
+    .class  -> 10
+    p.class -> 11
+    #id       -> 100
+
+*/
